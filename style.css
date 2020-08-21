@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --color1:#EE3250 ;
+    --color2:#1D1447;
+    --font-family: 'Do Hyeon', sans-serif;
+}
+
+/* =============== navigation ================= */
+
+.nav1{
+    background-color:var(--color2);
+}
+.logo{
+    width: 170px;
+}
+.active{
+    font-weight: bold;
+    color: #EE3250 !important;
+}
+.nav1 nav ul li a{
+    color: white !important;
+   font-family: var(--font-family);
+    font-size: 17px;
+}
+
+
+/* ================== Hero section =============== */
+.hero{
+    background-image: url("imgs/ipad-820272_1920.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.hero h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    letter-spacing: 5px;
+    color: var(--color1);
+    font-size: 45px !important;
+  
+}
+
+
+/* =========== content section ============= */
+.content{
+    background-color: #E5E6E9;
+}
+.intro-content{
+    background-color:white !important;
+}
+.intro-content h1 , .abst-content h1 ,
+.related-content h1 , .methology h1 ,
+.conclusion h1{
+    font-family: var(--font-family);
+    font-weight: bold;
+    background-color:white;
+    padding: 2px 5px;
+}
+.intro-content h1::before{
+    content: " ";
+    width: 250px;
+    height: 4px;
+    background-color: var(--color1);
+    position: absolute;
+    top: 100%;
+  
+    z-index: 5;
+}
+
+.intro-content p{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px !important;
+    padding-left: 5px;
+
+}
+
+
+
+
+/* ========== Footer ============= */
+#about{
+    transition: 2s;
+}
+
+.social-icon ul li ,i{
+  display: inline;
+  padding: 0px 4px 0px 4px;
+ 
+}
+.social-icon ul li {
+margin-left: -10px;
+
+}
+
+.copyright{
+display: flex;
+}
+.copyright {
+justify-content: center;
+}
+
+
+
+
+/* ===================== Team ===================== */
+.hero{
+    background-image: url("imgs/ipad-820272_1920.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.team h1{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    color: var(--color1);
+    font-family: var(--font-family);
+}
+
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
